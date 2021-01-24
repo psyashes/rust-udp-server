@@ -1,4 +1,5 @@
 # Rust UDP Server
+Simple Rust UDP Server
 
 ## Usage
 
