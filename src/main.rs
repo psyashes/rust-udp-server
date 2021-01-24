@@ -4,7 +4,7 @@ use std::str;
 
 fn main() -> std::io::Result<()> {
     let socket = UdpSocket::bind("127.0.0.1:34254")?;
-    let mut buf = [0; 100];
+    let mut buf = [0; 2048];
 
     loop {
       match socket.recv_from(&mut buf) {
